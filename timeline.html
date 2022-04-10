@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Personal Timeline by Jeffrey Li</title>
+  </head>
+  <div class="title">
+    Personal Timeline Project
+    <br />
+    By Jeffrey Li
+  </div>
+
+  <div class="icons">
+    <a href="timeline.html">
+      <svg
+        class="home"
+        fill="currentColor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"
+        ></path>
+      </svg>
+    </a>
+
+    <a href="#choices">
+      <svg
+        class="clock"
+        fill="currentColor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+          clip-rule="evenodd"
+        ></path>
+      </svg>
+    </a>
+
+    <a href="#other">
+      <svg
+        class="list"
+        fill="currentColor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"></path>
+        <path
+          fill-rule="evenodd"
+          d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z"
+          clip-rule="evenodd"
+        ></path>
+      </svg>
+    </a>
+  </div>
+
+  <body>
+    <div id="choices" class="container">
+      <div class="timeline">
+        <ul>
+          <li>
+            <div class="timeline-content">
+              <h2 class="date">0.0.0</h2>
+
+              <!-- make box clickable -->
+              <div
+                onclick="location.href='choice1.html';"
+                style="cursor: pointer"
+              >
+                <h1>Heading 1</h1>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Voluptatum blanditiis molestiae non doloribus magni inventore
+                  mollitia? Inventore maxime minus ipsam!
+                </p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="timeline-content">
+              <div
+                onclick="location.href='choice2.html';"
+                style="cursor: pointer"
+              >
+                <h1>Heading 2</h1>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Voluptatum blanditiis molestiae non doloribus magni inventore
+                  mollitia? Inventore maxime minus ipsam!
+                </p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="timeline-content">
+              <div
+                onclick="location.href='choice3.html';"
+                style="cursor: pointer"
+              >
+                <h1>Heading 3</h1>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Voluptatum blanditiis molestiae non doloribus magni inventore
+                  mollitia? Inventore maxime minus ipsam!
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="other" class="other-sections">
+      <div id="support">
+        <div onclick="location.href='support.html';" style="cursor: pointer">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+            doloribus, a architecto dolore ad consequuntur omnis voluptatibus,
+            placeat hic veniam cupiditate impedit sunt veritatis non.
+            Dignissimos laboriosam commodi voluptatem libero.
+          </p>
+        </div>
+      </div>
+
+      <!-- --------------------------------------------- -->
+      <div id="ideal">
+        <div onclick="location.href='ideal.html';" style="cursor: pointer">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit iure
+            quaerat omnis at. Maiores quibusdam corrupti, doloremque
+            reprehenderit exercitationem quam. Exercitationem adipisci quas
+            saepe et rerum veritatis aliquam fugiat facere.
+          </p>
+        </div>
+      </div>
+
+      <!-- --------------------------------------------- -->
+      <div id="alternative">
+        <div
+          onclick="location.href='alternative.html';"
+          style="cursor: pointer"
+        >
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+            culpa ducimus maiores ipsa tempore qui quam repellat iste non,
+            praesentium natus, odio quo at, minus ratione corrupti accusamus
+            quasi accusantium.
+          </p>
+        </div>
+      </div>
+
+      <!-- --------------------------------------------- -->
+    </div>
+  </body>
+</html>
